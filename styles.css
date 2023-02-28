@@ -1,0 +1,101 @@
+body{
+    background-color: azure;
+    font-family: 'Noto Serif', serif;
+}
+h1{
+  text-align: center;
+}
+h2 {
+    text-align: justify
+}
+
+h3 {color: red;
+text-align: justify;}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    border-radius: 50px;
+  }
+
+ 
+  .nav-enlace:hover{
+    background: rgb(9, 51, 51);
+    margin: auto;
+    padding: auto;
+    text-decoration: none;
+  }
+
+
+  .logo{
+    font-size: 300px;
+    font-weight: bold;
+    padding: 0 40%;
+  }
+
+.wrap{
+  width: 900px;
+  max-width: 90%;
+  margin: 50px auto;
+}
+ul.tabs{
+  display: -webkit-flex;
+  width: 100%;
+  background: darkslategrey;
+  
+  padding: 20px 30px;
+  list-style: none;
+  text-decoration: none;
+}
+.nav-enlace{
+  
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin-left: 10px;
+}
+ul.tabs li a{
+  width: 18%;
+}
+.active{
+  background-color: rgb(19, 48, 48);
+  color: aliceblue;
+  text-decoration: none;
+}
+ul.tabs li a .tab-text{
+  margin-left: 8px;
+}
+
+.secciones{
+  width: 100%;
+}
+.secciones article{
+  padding: 20px;
+}
+.secciones article p{
+  text-align: justify;
+}
+@media screen and (max-width: 700px){
+  ul.tabs li{
+    width: none;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  ul.tabs li a{
+    padding: 15px 0px;
+  }
+  ul.tabs li a .tab-text{
+    display: none;
+  }
+  .secciones article{
+    padding: 20px;
+  }
+}
+
+
